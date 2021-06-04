@@ -1,0 +1,3 @@
+echo "Starting extracting files..."
+cp -r MTerm ~/
+echo "Multitool installed in your home folder! (Don't change directory!)"
