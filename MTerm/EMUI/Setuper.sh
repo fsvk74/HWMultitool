@@ -2,11 +2,13 @@
 
 clear
 PS3='Please select your package manager: '
-options=("Apt" "Emerge" "zypper" "DnF" "Yum" "Pac-Man!" "I use Slackware_" "Exit")
+options=("Apt" "Emerge" "zypper" "DnF" "Yum" "Pac-Man!" "I use Slackware_" "xbps" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Apt")
+
+# Actually, for Debian/Ubuntu, for Alt Linux may not working.
+    "Apt")
 		echo "Setting up environment..."
 		sudo apt install adb fastboot heimdall-flash heimdall-flash-frontend
 	;;
@@ -38,6 +40,15 @@ do
 		upgradepkg --install-new android-tools-8.0.0_r24-x86_64-3_slonly.txz heimdall-1.4.1-x86_64-1alien.tgz
 		rm -r heimdall-1.4.1-x86_64-1alien.tgz android-tools-8.0.0_r24-x86_64-3_slonly.txz
 	;;
+	"xbps")
+		echo "Setting up environment..."
+		sudo xbps-install -S android-tools heimdall
+	;;
+	# Может не работать, т.к могут быть неправильные имена пакетов.
+    #"AltLinux")
+	#	echo "Setting up environment..."
+	#	sudo apt-get install adb fastboot heimdall-flash heimdall-flash-frontend
+	#;;
 	"Exit")
             break
             ;;
