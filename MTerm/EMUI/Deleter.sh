@@ -107,10 +107,10 @@ do
 		adb shell pm uninstall --user 0 com.mfashiongallery.emag
 	;;
 	"Microsoft")
-		adb shell pm unistall -k --user 0 com.microsoft.teams
-		adb shell pm unistall -k --user 0 com.microsoft.emmx
-		adb shell pm unistall -k --user 0 com.microsoft.office.excel
-		adb shell pm unistall -k --user 0 com.microsoft.launcher.enterprise
+		adb shell pm uninstall -k --user 0 com.microsoft.teams
+		adb shell pm uninstall -k --user 0 com.microsoft.emmx
+		adb shell pm uninstall -k --user 0 com.microsoft.office.excel
+		adb shell pm uninstall -k --user 0 com.microsoft.launcher.enterprise
 	;;
 	"SwiftKey (Installing OpenBoard)")
 		adb shell pm uninstall -k --user 0 com.swiftkey.swiftkeyconfigurator
@@ -118,7 +118,7 @@ do
 		adb install Apps/OpenBoard.apk
 	;;
 	"GBoard (Installing OpenBoard)")
-		adb shell pm unintall -k --user 0 com.google.android.inputmethod.latin
+		adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
 		adb install Apps/OpenBoard.apk
 	;;
 	"AOSP Programs")
