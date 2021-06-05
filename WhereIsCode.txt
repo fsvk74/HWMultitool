@@ -1,1 +1,0 @@
-MTerm.zip has shell-scrips, and, this is a source code too. Download it in releases.
