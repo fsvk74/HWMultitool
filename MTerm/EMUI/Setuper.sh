@@ -2,7 +2,7 @@
 
 clear
 PS3='Please select your package manager: '
-options=("Apt" "Emerge" "zypper" "DnF" "Yum" "Pac-Man!" "I use Slackware_" "xbps" "Exit")
+options=("Apt" "Emerge" "zypper" "DnF" "Yum" "Pac-Man!" "I use Slackware_" "xbps" "apk" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -49,6 +49,11 @@ do
 	#	echo "Setting up environment..."
 	#	sudo apt-get install adb fastboot heimdall-flash heimdall-flash-frontend
 	#;;
+	"apk")
+		echo "Setting up environment..."
+		echo "Turn on Edge/Testing repo!!!"
+		sudo apk add heimdall android-tools
+	;;
 	"Exit")
             break
             ;;
