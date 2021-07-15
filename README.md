@@ -2,7 +2,7 @@
 Official multitool for Linux, BSD and macOS systems by TeamMT.
 
 
-Dependencies: main: bash. Other dependencies (adb, fastboot and other) you can install through multitool using setupper.
+Dependencies: main: bash, sudo. Other dependencies (adb, fastboot and other) you can install through multitool using setupper.
 
 
 ----
