@@ -2,6 +2,5 @@ echo "Starting extracting files..."
 cp -r MTerm ~/
 mv ~/MTerm ~/Multitool
 echo "Removing junk files..."
-rm -rf HWMultitool-master
-rm -rf MT.zip MT
+rm -rf ../HWMultitool-master
 echo "Multitool installed in your home folder! (You can change directory, just move folder ^^)"
