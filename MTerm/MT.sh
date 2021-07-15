@@ -2,7 +2,7 @@
 
 clear
 echo "Welcome to HUAWEI/Android Console MultiTool!"
-echo "Version: 0.1.2 Stable, developer: fsvk74 for TeamMT."
+echo "Version: 0.1.2 Stable, developer: TeamMT (fsvk74)"
 echo "LICENSE - 3-Clause BSD License (For ALL Scripts in THIS MultiTool)"
 echo "If yo want to donate me (RUS) please, contact me on 4PDA ^^"
 echo "Last IMEI, Last full information from build.prop and Last Unlock Code will be saved in EMUI/Backups"
