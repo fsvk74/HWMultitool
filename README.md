@@ -15,6 +15,8 @@ Dependencies: main: bash, sudo. Other dependencies (adb, fastboot and other) you
 * Removed junk files
 * Removed symlinks for home folder (you can move folder to something hehe)
 * Added README and setup for Alpine GNU/Linux (package manager: apk)
+* Renamed folder
+* Changed license from BSD 3-Clause to MIT
 
 ----
 ### License: MIT.
