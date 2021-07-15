@@ -1,5 +1,6 @@
 echo "Starting extracting files..."
-cp -r Multitool ~/
+cp -r MTerm ~/
+mv ~/MTerm ~/Multitool
 echo "Removing junk files..."
 rm -rf HWMultitool-master
 rm -rf MT.zip MT
