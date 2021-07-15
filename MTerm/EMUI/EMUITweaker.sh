@@ -7,44 +7,44 @@ options=("Virtual Keys Button" "Min Navigaton Bar" "Show Network Speed Enabler" 
 select opt in "${options[@]}"
 do
     case $opt in
-        "VirtualKeysButtton")
-	bash Tweaker/VKBS.sh
+        "Virtual Keys Button")
+	bash EMUI/Tweaker/VKBS.sh
 	;;
 	"Min Navigaton Bar")
-	bash Tweaker/MNBS.sh
+	bash EMUI/Tweaker/MNBS.sh
 	;;
 	"Show Network Speed Enabler")
-	bash Tweaker/SNSE.sh
+	bash EMUI/Tweaker/SNSE.sh
 	;;
 	"HW Network Mode GStyle")
-	bash Tweaker/HWNMGSS.sh
+	bash EMUI/Tweaker/HWNMGSS.sh
 	;;
 	"HW Hide Font Style")
-	bash Tweaker/HWHFSS.sh
+	bash EMUI/Tweaker/HWHFSS.sh
 	;;
 	"App Name Two Lines")
-	bash Tweaker/ANTLS.sh
+	bash EMUI/Tweaker/ANTLS.sh
 	;;
 	"Theme No Online")
-	bash Tweaker/TNOS.sh
+	bash EMUI/Tweaker/TNOS.sh
 	;;
 	"HW Launcher Hide Apps")
-	bash Tweaker/HWLHAS.sh
+	bash EMUI/Tweaker/HWLHAS.sh
 	;;
 	"HW Networking Mode Preference")
-	bash Tweaker/HWNMPS.sh
+	bash EMUI/Tweaker/HWNMPS.sh
 	;;
 	"HW add 4G only")
-	bash Tweaker/HWA4GOS.sh
+	bash EMUI/weaker/HWA4GOS.sh
 	;;
 	"HW Support Theme HWID")
-	bash Tweaker/HWSTHWIDS.sh
+	bash EMUI/Tweaker/HWSTHWIDS.sh
 	;;
 	"Show Network Type")
-	bash Tweaker/SNTS.sh
+	bash EMUI/Tweaker/SNTS.sh
 	;;
 	"UserRotation")
-	bash Tweaker/URS.sh
+	bash EMUI/Tweaker/URS.sh
 	;;
 	"Exit")
 	break
