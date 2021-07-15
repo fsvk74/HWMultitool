@@ -2,12 +2,12 @@
 
 clear
 echo "Welcome to HUAWEI/Android Console MultiTool!"
-echo "Version: 0.1.1 Stable!"
+echo "Version: 0.1.2 Stable, developer: fsvk74 for TeamMT."
 echo "LICENSE - 3-Clause BSD License (For ALL Scripts in THIS MultiTool)"
-echo "IT IS FREE AND OPENSOURCE SOFTWARE!"
+echo "If yo want to donate me (RUS) please, contact me on 4PDA ^^"
 echo "Last IMEI, Last full information from build.prop and Last Unlock Code will be saved in EMUI/Backups"
 PS3='Please enter your choice (Press Enter, if you don`t see menu): '
-options=("Get info about phone" "FI Flash Program" "FI Unlock Program" "Deleter" "PowerGenue" "EMUI Tweaker" "Samsung Flash Program" "Setup Program" "Addons" "Exit")
+options=("Get info about phone" "FI Flash Program" "FI Unlock Program" "Deleter" "PowerGenue" "EMUI Tweaker" "Samsung Flash Program" "Setup Program" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -48,10 +48,6 @@ do
 	"Setup Program")
 		clear
 		bash EMUI/Setuper.sh
-	    ;;
-	"Addons")
-		clear
-		bash EMUI/Addons.sh
 	    ;;
         "Exit")
             break
